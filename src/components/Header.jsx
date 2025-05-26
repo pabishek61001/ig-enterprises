@@ -36,6 +36,7 @@ const serviceItems = [
     { label: 'Wedding Planning', href: '/services/weddings' },
     { label: 'Corporate Services', href: '/services/corporate' },
     { label: 'Venue Booking', href: '/services/venues' },
+    { label: 'Catering', href: '/services/catering' },
 ];
 
 const Header = () => {
