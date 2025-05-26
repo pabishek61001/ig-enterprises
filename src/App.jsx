@@ -7,6 +7,7 @@ import theme from './theme/Theme'
 import { ThemeProvider } from '@mui/material/styles';
 import "../src/css/App.css"
 import AboutPage from './pages/AboutPage'
+import WhyusPage from './pages/WhyusPage'
 
 const App = () => {
 
@@ -18,10 +19,11 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename='/ig-enterprises'>
         <Routes>
           <Route path='' element={<LandingPage />}></Route>
           <Route path='about' element={<AboutPage />}></Route>
+          <Route path='why-us' element={<WhyusPage />}></Route>
 
         </Routes>
       </BrowserRouter>
