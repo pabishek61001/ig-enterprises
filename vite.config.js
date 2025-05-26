@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [tailwindcss(), react()],
   server: {
     host: true
-  }
+  },
+  base: "/ig-enterprises"
 })
